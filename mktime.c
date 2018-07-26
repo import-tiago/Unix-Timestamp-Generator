@@ -1,7 +1,7 @@
 #include "mktime.h"
 
 uint32_t
-unix_time_in_seconds( uint8_t sec, uint8_t min, uint8_t hrs, uint8_t day, uint8_t mon, uint16_t year )
+unix_time_in_seconds( uint8_t hrs, uint8_t min, uint8_t sec, uint8_t day, uint8_t mon, uint16_t year )
 {
   uint32_t ts = 0;
 
@@ -28,9 +28,9 @@ unix_time_in_seconds( uint8_t sec, uint8_t min, uint8_t hrs, uint8_t day, uint8_
   ts += (day-1) * SEC_PER_DAY; // days from this month
 
   //  Calculate seconds elapsed just today.
-  ts += hrs * SEC_PER_HOUR;
-  ts += min * SEC_PER_MIN;
-  ts += sec;
+  ts += (uint32_t)hrs * SEC_PER_HOUR;
+  ts += (uint32_t)min * SEC_PER_MIN;
+  ts += (uint32_t)sec;
 
   return ts;
 }

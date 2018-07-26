@@ -17,4 +17,4 @@ static int days_per_year[2] = {
 };
 
 uint32_t
-unix_time_in_seconds( uint8_t sec, uint8_t min, uint8_t hrs, uint8_t day, uint8_t mon, uint16_t year );
+unix_time_in_seconds( uint8_t hrs, uint8_t min, uint8_t sec, uint8_t day, uint8_t mon, uint16_t year );
