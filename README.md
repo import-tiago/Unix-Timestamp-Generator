@@ -1,3 +1,5 @@
+![Status](https://img.shields.io/badge/Status-Finished-green.svg)
+
 # make-unix-timestamp-c
 ## Purpose
 Provides a simple C function that takes datetime elements (e.g. `hours`, `minutes`, `seconds`, `date`, `month` and `year`) and returns a single integer representing the number of seconds elapsed since the UNIX epoch (1/1/1970).
