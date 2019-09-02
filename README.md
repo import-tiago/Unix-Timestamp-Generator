@@ -9,6 +9,7 @@ unix_time_in_seconds( uint8_t hrs, uint8_t min, uint8_t sec, uint8_t day, uint8_
 ```
 
 **EXAMPLE:**
+
 ***Input:*** 16 February 2014 12:30:00
 ```c
   uint32_t timestamp = unix_time_in_seconds(12, 30, 0, 16, 2, 2014);
