@@ -37,7 +37,7 @@ Therefore, the computed timestamp in seconds is not "true UTC time", but simply 
 1. Create an issue and describe your idea
 2. [Fork it](https://github.com/TiagoPaulaSilva/Unix-Timestamp-Generator/fork)
 3. Create your feature branch (`git checkout -b my-new-feature`)
-4. Commit your changes (`git commit -am 'Add some feature'`)
+4. Commit your changes (`git commit -a -m "Added feature title"`)
 5. Publish the branch (`git push origin my-new-feature`)
 6. Create a new pull request
 7. Done! :heavy_check_mark:
